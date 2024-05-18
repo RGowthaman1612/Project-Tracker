@@ -1,0 +1,206 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .main {
+    display: flex;
+    background-color: #f3f3f9;
+  }
+  
+  
+  .dash {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #aaaac853;
+    height: 100vh;
+  }
+  
+  
+  .salutation {
+    display: flex;
+    gap: 50px;
+  }
+  .greeting {
+    display: flex;
+    gap: 50px;
+    background-color: #f3f3f9;
+    margin: 20px 5px 10px;
+    border-radius: 5px;
+    padding: 10px 5px 10px;
+    color: rgb(175, 14, 14);
+    font-size: medium;
+    font-style: oblique;
+  }
+  
+  .user {
+    cursor: pointer;
+  }
+  
+  .timezone {
+    background-color: #bac3e3c8;
+    border-radius: 5px;
+    padding: 4px 5px 5px;
+    margin: 1px 0px 3px;
+    color: rgba(255, 0, 0, 0.952);
+    font-size: medium;
+    font-style: oblique;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .statusbar1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .projectprogress {
+    display: flex;
+    background-color: #f3f3f9;
+    border-radius: 30px;
+    padding: 15px 20px 0px;
+    margin: 10px 10px 10px;
+    max-width: 500px;
+    max-height: 260px;
+  }
+  
+  .project {
+    font-size: x-large;
+  }
+  
+  .circular {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 15px;
+  }
+  
+  .circularname {
+    display: flex;
+    padding: 10px 5px 10px;
+    margin: 10px 5px 10px;
+    justify-content: center;
+  }
+  
+  .remainder {
+    min-width: 300px;
+    max-height: 500px ;
+    font-size: large;
+    border-radius: 30px;
+    padding: 15px 20px 0px;
+    margin: 10px 10px 10px;
+    background-color: #f3f3f9;
+  }
+  
+  .remainder ul {
+    padding: 10px 60px 0px;
+  }
+  
+  .addremainder textarea{
+    min-width:300px;
+    min-height: 250px;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 30px;
+    padding: 15px 15px 10px;
+    margin: 15px 15px 10px;
+    border: none;
+    list-style-type: none;
+    outline: none; 
+    background-color: #f3f3f9;
+    font-size:x-large;
+    padding-left: 20px;
+    font-weight: 100;
+  
+  }
+  .statusbar2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .taskview {
+    width: 600px;
+    height: 250px;
+    overflow: auto;
+    background-color: #f3f3f9;
+    border-radius: 30px;
+    padding: 15px 20px 0px;
+    margin: 10px 10px 10px;
+  }
+  
+  .table-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .task-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 8px;
+  }
+  
+  .task-table th {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .task-table td {
+    text-align: center;
+  }
+  .active,
+  .button:hover{
+    border-color: 12px solid #d46d36;
+  
+  }
+  .button{
+      border: none;
+  }
+  
+  .slotview {
+    width: 450px;
+    height: 250px;
+    overflow: auto;
+    background-color: #f3f3f9;
+    border-radius: 30px;
+    padding: 15px 20px 0px;
+    margin: 10px 10px 10px;
+  }
+  
+  .slotbooked-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slotbooked-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  
+  .slotbooked-table th,
+  .slotbooked-table td {
+    padding: 8px;
+  }
+  
+  .slotbooked-table th {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .slotbooked-table td {
+    text-align: center;
+  }
+  

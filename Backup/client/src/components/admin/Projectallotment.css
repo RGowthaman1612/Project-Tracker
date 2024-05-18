@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  background-color: #f3f3f9;
+  height: 100vh;
+}
+
+.main-inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 10px 10px;
+  margin: 10px 10px 10px;
+}
+
+.dash {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #aaaac853;
+  height: 100vh;}
+
+.allotproject{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px;
+    margin: 15px 10px 15px;
+    background-color: #f3f3f9;
+    border-radius: 30px;
+    gap: 10px;
+    
+}
+
+.allotproject label{
+    justify-content: left;
+}
+
+.allotproject input{
+    border-radius:5px;
+    border: 10x solid red;
+    justify-content: left;
+    width: 90%;
+    height: 25px;
+    margin: 0px 10px 0px;
+    padding: 5px 5px 5px;
+    font-size: medium;
+}
+.allotproject textarea{
+    gap: 20px;
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 125px;
+    overflow: auto;
+    font-size: large;
+}
+.allotproject  button{
+    height: 50px;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.allotproject h2
+.slotbooking h2{
+  text-align: center;
+}
+
+.slotbooking{
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px;
+  margin: 15px 10px 15px;
+  background-color: #f3f3f9;
+  border-radius: 30px;
+  gap: 10px;
+}
+
+.slotbooking label{
+  justify-content: left;
+}
+
+.slotbooking input{
+  border-radius:5px;
+  border: 10x solid red;
+  justify-content: left;
+  width: 90%;
+  height: 25px;
+  margin: 0px 10px 0px;
+  padding: 5px 5px 5px;
+  font-size: medium;
+}
+
+.slotbooking button{
+  height: 50px;
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+
+}
+

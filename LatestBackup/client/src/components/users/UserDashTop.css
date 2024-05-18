@@ -1,0 +1,36 @@
+.dashtop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 27px;
+  font-size: large;
+  font-weight: 600;
+  color: #000000;
+  background-color: #f3f3f9;
+  height: 35px;
+  padding-top: 6px;
+  padding-right: 10px;
+  margin-left: 0.4px;
+  padding-bottom: 4px;
+  /* border-radius: 5px; */
+  /* border:2px solid #a05e5e; */
+}
+.dashtop img {
+  width: 25px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.user{
+  font-size: larger;
+  font-style:oblique;
+}
+
+
+.user img{
+  width: 30px;
+  height: 33px;
+  border-radius: 50px;
+}
+
+
